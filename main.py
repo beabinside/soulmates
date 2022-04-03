@@ -1,8 +1,9 @@
-from bot.soulmate_bot import sm_bot
+from bot.soulmate_bot import bot
 
 
 def main():
-    sm_bot.polling(none_stop=True, interval=0)
+    print("Bot started")
+    bot.polling(none_stop=True, interval=0)
 
 
 if __name__ == '__main__':
